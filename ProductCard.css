@@ -1,0 +1,47 @@
+/* ProductCard.css */
+.productCard {
+    transition: all 0.3s ease;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.productCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.textPart {
+    border-top: 1px solid #f0f0f0;
+}
+
+/* Star rating color */
+.text-yellow-400 {
+    color: #f59e0b;
+}
+
+/* Price discount color */
+.text-green-600 {
+    color: #10b981;
+}
+
+/* Service text styling */
+.font-bold.opacity-60 {
+    color: #4b5563;
+    opacity: 0.8;
+}
+
+/* Button hover effect */
+button.hover\:bg-black:hover {
+    background-color: #000;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+/* Responsive styles */
+@media (max-width: 640px) {
+    .productCard {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
